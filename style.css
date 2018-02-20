@@ -1,0 +1,109 @@
+/*Theme Name: Bow
+Theme URI: http://www.true-luv.com/
+Description: bow
+Version: 1.1
+Author: Tamara 
+Author URI: http://www.true-luv.com*/
+
+html, body, div, span, h2, h3, blockquote, pre, a, code, em, font, img, small, strong, b, i, ol, ul, li, fieldset, 
+
+form, label, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; border: 0; outline: 0;}
+
+html, body {height: 100%; font: 12px sans-serif, arial, Trebuchet MS; text-align: justify; color: #7e7e7e; 
+background: #f8f8f8;} 
+
+@font-face {font-family: Bauhaus Medium BT; src: url('Bauhaus Medium BT.ttf'); src: local('Bauhaus Medium BT'), url('Bauhaus Medium BT.ttf');}
+
+
+#page {width: 1030px; margin:0 auto; min-height: 100%;}
+#header {width: 1030px;} 
+
+#footer {clear: both; width: 100%; height: 30px; margin: 0px; padding: 15px 0 0 0; text-align: center; background: #f2e6f9;}
+#footercontent {width: 880px; margin:0 auto; padding: 0 0 0 30px; font: 11px verdana, Helvetica, sans-serif; color:#c2bbb4; text-transform: uppercase;}
+
+
+#menu {float: left; width: 650px; height: 32px; margin: 25px 0 0 50px; font: 14px Verdana, arial, sans-serif; text-align: right; letter-spacing: 1px; text-transform: uppercase;}
+#menu ul , #menu ul li {display: block; float: left; width: auto; margin: 2px; padding: 0; list-style: none;}
+#menu ul li a {display: block; padding: 0 20px 0 0; color: #c8add8;}
+#menu ul li a:hover, #menu li.current a {color: #a6cadd;}
+
+
+#sidebar {float: left; width: 260px; padding: 15px 10px 0 15px; margin: -5px 10px 0 0; font: 12px arial, sans-serif, 
+Trebuchet MS; line-height: 1.5em;}
+#sidebar a {color: #c8add8;}
+#sidebar a:hover {color: #b2d7ea;}
+#sidebar ul {margin: 0; padding: 0; list-style: none;}
+#sidebar ul li {display: block; margin:2px 0 2px 2px; padding: 2px;  border-bottom:1px solid #ebebeb;}
+#sidebar #perfil {display: block; padding: 8px 10px; background-color: #f2e6f9;}
+#sidebar #flickr {text-align: center;}
+#sidebar #flickr a img {margin: 0 2px 2px 2px; padding: 3px; background-color: #ebebeb;  }
+#sidebar h1 {display: block; clear: both; margin: 5px 0 3px 0; padding: 10px 0 0px 2px; font: 17px Bauhaus Medium BT, Trebuchet MS,sans-serif; text-transform: uppercase; line-height:20px; color: #a6cadd; border-bottom: 1px dotted #ebebeb;}
+
+.colleft {float:left; width:50%;} .colright {float:left; width:50%;}
+
+#content {float: left; width: 640px; margin: 12px 0 0 50px;}
+#content .post {margin-bottom: 10px; padding: 15px 20px; line-height: 1.5em; text-align:justify; background-color: #fff;}
+
+#content span.data {display: block; padding: 0; margin: 8px 0 0 0; font:10px verdana, helvetica, sans-serif; text-transform: uppercase; color: #b7b7b7;}
+#content .post-title a {margin: 0; font: 23px Bauhaus Medium BT, helvetica, sans-serif; text-align: left; color: #b2d7ea;}
+#content .post-title a:hover {color:#c8add8;}
+#content .page-title a {display: block; margin: 5px 0 0 0; font: 23px Bauhaus Medium BT, helvetica, sans-serif; text-align:center; color: #b2d7ea; border-bottom: 1px dotted #ebebeb;}
+#content .page-title a:hover {color:#c8add8;}
+#content h1 {display: block; clear: both; padding: 10px 0 0px 2px; font: 11px Verdana, Trebuchet MS, sans-serif;  color: #c8add8; text-transform: uppercase; border-bottom: 1px dotted #ebebeb;} 
+#content h2 {display: block; clear: both; padding: 10px 0 0px 2px; font: 11px Verdana, Trebuchet MS, sans-serif; color: #a6cadd; text-transform: uppercase; border-bottom: 1px dotted #ebebeb;}
+#content .thumb {float: left; margin: -3px 11px 5px 3px;}
+#content .relacionados {float:left; margin: 0 7px; padding:0; width:105px; text-align: center;}
+#content .relthumb{float: left; margin: 0px 3px 5px 3px;}
+
+
+a {text-decoration: none;} 
+a:link, a:visited, a:active {color: #c8add8;}
+a:hover {text-decoration: none; color: #a6cadd;}
+
+em {color: #b7b7b7; font-style: italic;} i {color: #b7b7b7;}
+b {color: #a6cadd;} strong {color: #a6cadd;}
+
+.links {width: 100%; margin: 0 0 5px 0;}
+.links ul,.links ul li {float:left; margin: 0; padding: 0; list-style-type:none;}
+.links li a {display: block; width: 277px; height: auto; margin: 0; padding: 2px 2px 2px 5px; color: #c8add8;
+border-bottom:1px solid #ebebeb;} 
+.links ul li a:hover {color: #a6cadd;}
+
+#commentform input, #commentform textarea { width:265px; margin-bottom:4px; padding:4px; background-color: 
+#f8f8f8;}
+#commentform textarea {width:98.5%;}
+#commentform input#submit{width:70px; height:20px; padding:2px; color:#c8add8; font-weight: bold; background:#f2e6f9; border: 1px solid #c8add8;}
+.comment{ float: left; width: 510px; height: auto; margin: 0 0 20px 10px; padding: 10px; text-align: 
+justify; background: #f8f8f8;}
+.authcomment {float:left; width: 510px; height: auto; margin: 0 0 20px 10px; padding: 10px; text-align:justify; background: #faf5fd;}
+.commentname,.commentname a {font: 12px Verdana, helvetica, sans-serif; color: #c8add8;}
+.commentname:hover {color: #ebebeb;}
+.avatar {float: left; margin: 0 3px;}
+
+.center, .aligncenter {display: block; margin-left: auto; margin-right: auto; text-align: center;}
+.left, .alignleft {float: left; margin-right:2%; }
+.right, .alignright {float: right; margin-left:2%;}
+.alignnone {display: block; margin-left: -20px;}
+
+.wp-caption {position: relative; }
+.wp-caption-text {margin: 0 3% 0 0; padding: 3px 10px; position: absolute; left: 10px; bottom: 10px; background: url(images/back-caption.png) repeat; color: #fff; text-align: left; font: 12px Arial, serif; font-style: italic;}
+
+blockquote {margin: 0 5px 0 20px; padding:0 5px; text-align: justify; font-family: arial, Trebuchet MS; 
+color: #a1a1a1; font-style: italic; border-left: 3px solid #ebebeb;}
+
+hr {clear: both; height: 1px;margin: 5px 0; border-top: 1px dotted #ebebeb; border-bottom: 0; border-left: 0; 
+border-right: 0;}
+
+form, fieldset {margin: 0;padding: 0;border: 0;}
+
+input, textarea, select, button { margin: 0; padding:4px; font-size: 11px; background-color: 
+#f8f8f8; border: 1px solid #ebebeb;}
+
+input#searchsubmit {color:#c8add8; font-weight: bold; background:#f2e6f9; border: 1px solid #c8add8;}
+#search [type="text"] {width: 210px; height: auto;}
+
+.pagination {clear: both; margin:3px 1px; text-align:center;}
+.pagination a {margin:3px 1px; padding: 3px 6px; background-color: #ebebeb;}
+.pagination a:hover,.pagination .current {margin:3px 1px; padding: 3px 6px; background-color: #f2e6f9;}
+
+.space {clear:both;}
